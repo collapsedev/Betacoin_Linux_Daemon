@@ -2,7 +2,7 @@
 # Distributed under the MIT/X11 software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-CXXFLAGS=-mtune=native -march=native
+CXXFLAGS=-mtune=native -march=native -std=c++14
 
 # Uncomment for portable DB
 #BDB_LIB_SUFFIX=-4.8
